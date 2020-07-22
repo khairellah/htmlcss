@@ -11,6 +11,7 @@ body{
     width: 80%;
     margin: auto;
     overflow: hidden;
+
 }
 
 header{
@@ -67,13 +68,14 @@ showcase p {
 } /*1rem = 16px */
 
 .btn1{
-    margin-left: 35%;
+    /* margin-left: 35%; */
     padding: 0.7em;
     color: #fff;
     background-color: #4267b2;
     border: none;
     border-radius: 1.2rem;
     margin-top: 2%;
+    text-align: center;
 }
 
 .btn2{
@@ -89,7 +91,7 @@ showcase p {
 footer{
     background-color: #fff;
     padding: 0.7rem;
-    margin-top: 10%;
+    margin-top: 23%;
     font-family: cursive;
 }
 
