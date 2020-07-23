@@ -1,0 +1,102 @@
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: sans-serif;    
+}
+
+header{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.head{
+    color: #fff;
+    font-size: 0.8rem;
+    word-spacing: 0.7rem;
+    float: left;
+}
+
+nav{
+    float: right;
+}
+
+ul{
+    border-left: 3px solid coral;
+}
+
+li {
+    display: inline;
+    padding-left: 1.7rem;
+}
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.quote{
+    background-color:#e8290b;
+    padding: 0.5rem 1rem;
+    border-radius: 1.3rem;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 10rem;
+}
+
+showcase h1{
+    font-size: 4rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+
+showcase h3{
+    font-size: 2rem;
+    color: #fff;
+    letter-spacing: 0.2rem;
+    margin-top: 0.5rem;
+}
+
+showcase p{
+    color: #fff;
+    font-family: cursive;
+    font-size: 1.2rem;
+}
+
+a button{
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.7rem 1rem;
+    border-radius: 1.3rem;
+    margin-top: 1.2em;
+}
+
+aside{
+    width: 90%;
+    margin: auto;
+    color:#fff;
+    font-size: 1.2rem;
+    text-align: right;
+    margin-top: 10rem;
+}
+
+.price{
+    color: gold;
+    font-size: 3rem;
+    padding-left: 0.7rem;
+}
+
+.btn{
+    background-color: #e44236;
+    border: none;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
