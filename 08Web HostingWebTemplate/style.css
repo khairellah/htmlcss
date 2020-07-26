@@ -1,0 +1,208 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.wrapper{
+    background: url(bg.jpg)no-repeat center center fixed;
+    min-height: 680px;
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    padding-top: 2%;
+}
+
+.main{
+    color: #fff;
+    font-size: 1.2rem;
+    float: left;
+    font-weight: 600;
+    margin-left: 5%;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+}
+
+nav li{
+    display: inline;
+    padding: 1.5rem;
+}
+
+nav li a{
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+nav li a:hover{
+    color: red;
+    border-bottom: 2px solid red;
+    font-family: cursive;
+    transition: all 0.5s ease-in;
+    padding: 15px 0;
+}
+
+.section{
+    padding-top: 200px;
+    text-align: center;
+}
+
+.section p{
+    margin: 0;
+    color: #fff;
+}
+
+.section h2{
+    color: #FFF;
+    font-size: 3rem;
+}
+
+.section button{
+    margin-top: 2%;
+    padding: 15px 17px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.section button:hover{
+    background-color: red;
+    font-family: cursive;
+    border: none;
+}
+
+#search{
+    margin-top: 5%;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.left{
+    width: 30%;
+    text-align: right;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+}
+
+.right{
+    width: 70%;
+    padding: 2rem;
+}
+
+.input_domain{
+    width: 70%;
+    padding: 0.7rem;
+    font-size: 1rem;
+}
+
+.btn_search{
+    background-color: #3C40C6;
+    padding: 0.8rem 2rem;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.btn_search:hover{
+    background-color: firebrick;
+    border: none;
+}
+
+#pricing{
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
+.ul li{
+    padding: 0.8rem;
+    border-bottom: 2px solid lightgray;
+    background-color: #FFF;
+}
+
+.ul{
+    color: #555;
+    margin: 4%;
+    padding: 0;
+    width: 100;
+    list-style-type: none;
+    text-align: center;
+}
+
+.box{
+    padding: 0.8rem;
+    display: flex;
+    justify-content: space-around; /* centrer les box */
+}
+
+#bg{
+    background-color: #F4F4F4;
+    font-size: 2.3rem;
+}
+
+#head{
+    background-color: #000;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+
+
+#head2{
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 2.5rem;
+}
+
+.btn_price{
+    background-color: #4CAF50;
+    border: none;
+    padding: 0.7rem 2rem;
+    color: #fff;
+}
+
+#contact{
+    background-color: #74B9FF;
+    padding: 0.5rem;
+    padding-left: 3rem;
+}
+
+.space{
+    text-align: center;
+    margin: 5%;
+}
+
+label{
+    display: block;
+    margin-bottom: 1%;
+}
+
+.form input{
+    width: 95%;
+    padding: 0.6rem;
+    margin-bottom: 1%;
+}
+
+.form button{
+    background-color: #3C40C6;
+    padding: 0.8rem;
+    border: none;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-top: 1%;
+}
+
+footer{
+    background-color: #333;
+    color: #FFF;
+    padding: 0.7rem;
+    text-align: center;
+}
